@@ -27,13 +27,19 @@ public class EditorManager : MonoBehaviour
 
     UIManager ui;
 
-    // Start is called before the first frame update
-    void Start()
+
+    private void Awake()
     {
-        if(instance == null)
+        if (instance == null)
         {
             instance = this;
         }
+    }
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        
         inputAction = PlayerInputController.controller.inputAction;
 
         inputAction.Editor.EnableEditor.performed += cntxt => SwitchCamera();
@@ -95,7 +101,11 @@ public class EditorManager : MonoBehaviour
     {
         if (editorMode && instanciated)
         {
-            item.GetComponent<Rigidbody>().useGravity = true;
+            if (item.GetComponent<Rigidbody>())
+            {
+                item.GetComponent<Rigidbody>().useGravity = true;
+            }
+            
             item.GetComponent<Collider>().enabled = true;
 
             command = new PlaceItemCommand(item.transform.position, item.transform);
