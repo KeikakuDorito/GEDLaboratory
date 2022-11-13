@@ -1247,6 +1247,7 @@ GameObject:
   - component: {fileID: 1263585523}
   - component: {fileID: 1263585522}
   - component: {fileID: 1263585524}
+  - component: {fileID: 1263585525}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1396,6 +1397,22 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d6ddddb1ef4a4c340ae4bdc6f2fbbef9, type: 2}
   buttonPanel: {fileID: 1677441233}
   buttonPrefab: {fileID: 3067295146908603990, guid: ac59415a921d4e84b9f8bb318c68d6f4, type: 3}
+--- !u!114 &1263585525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1263585514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6aafde8ab8ef0941afe0d3d79760f2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pools:
+  - tag: Bullet
+    Prefab: {fileID: 7424386688712760752, guid: a57880cf23c9def4d8b10696b9cfc54e, type: 3}
+    size: 10
 --- !u!1 &1292778639 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 70ba506f4cdb99d4395eaaa6c867986f, type: 3}
