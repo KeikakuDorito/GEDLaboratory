@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Coin
   m_EditorClassIdentifier: 
   _name: Coin
-  _score: 0
+  _score: 1
   _prefab: {fileID: 418113483283780742, guid: 52cc5947e9e4cdb4c93c6bd05bdd40bd, type: 3}

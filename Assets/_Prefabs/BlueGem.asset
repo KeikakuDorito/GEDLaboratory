@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: BlueGem
   _score: 10
-  _prefab: {fileID: 418113483283780742, guid: 52cc5947e9e4cdb4c93c6bd05bdd40bd, type: 3}
+  _prefab: {fileID: 8116636524445363943, guid: 6abe4e89b6292624ea0a7bdccb365093, type: 3}

@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: PinkGem
   _score: 100
-  _prefab: {fileID: 418113483283780742, guid: 52cc5947e9e4cdb4c93c6bd05bdd40bd, type: 3}
+  _prefab: {fileID: 3049921026931957927, guid: de9b96becad2dca4c9fba93b87eaee0e, type: 3}
